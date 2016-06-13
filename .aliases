@@ -1,0 +1,16 @@
+#!/bin/bash
+
+export EDITOR=gvim
+export VIEWER=gvim
+export SVN_EDITOR=vim
+
+umask 0007
+
+alias v=~/.v
+alias e=~/.e
+alias g="grep -Rn"
+alias gh="grep -Rn --include=\"*.h*\""
+alias gc="grep -Rn --include=\"*.c*\""
+alias gj="grep -Rn --include=\"*.java\""
+
+
